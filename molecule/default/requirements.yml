@@ -1,0 +1,11 @@
+---
+roles:
+  - role: impinj.green
+    src: ssh://git@github.com/lgadalla-impinj/ansible-role-green.git
+    version: last_known_good
+    scm: git
+  - role: impinj.blue
+    src: ssh://git@github.com/lgadalla-impinj/ansible-role-blue.git
+    version: last_known_good
+    scm: git
+collections: []
