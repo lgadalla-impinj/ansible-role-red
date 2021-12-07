@@ -4,8 +4,12 @@ roles:
     src: ssh://git@github.com/lgadalla-impinj/ansible-role-green.git
     version: last_known_good
     scm: git
+    vars:
+      caller: 'red'
   - name: impinj.blue
     src: ssh://git@github.com/lgadalla-impinj/ansible-role-blue.git
     version: last_known_good
     scm: git
+    vars:
+      caller: 'red'
 collections: []
